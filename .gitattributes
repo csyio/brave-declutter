@@ -1,5 +1,5 @@
-*.reg text eol=crlf
-*.ps1 text eol=crlf
+*.reg -text
+*.ps1 -text
 *.sh text eol=lf
 *.py text eol=lf
 *.json text eol=lf
