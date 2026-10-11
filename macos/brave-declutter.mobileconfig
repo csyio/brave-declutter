@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>PayloadDisplayName</key><string>Brave Declutter</string>
+<key>PayloadDescription</key><string>Disables Brave Rewards, Wallet, VPN, Leo AI, News, Talk, Playlist and telemetry via Brave policies.</string>
+<key>PayloadIdentifier</key><string>io.github.brave-declutter</string>
+<key>PayloadOrganization</key><string>Can Soykanyilmaz</string>
+<key>PayloadScope</key><string>User</string>
+<key>PayloadType</key><string>Configuration</string>
+<key>PayloadUUID</key><string>125154F5-F6D9-4818-8D5F-85453697DA16</string>
+<key>PayloadVersion</key><integer>1</integer>
+<key>PayloadContent</key><array><dict>
+  <key>PayloadType</key><string>com.apple.ManagedClient.preferences</string>
+  <key>PayloadIdentifier</key><string>io.github.brave-declutter.prefs</string>
+  <key>PayloadDisplayName</key><string>Brave policies</string>
+  <key>PayloadUUID</key><string>7094C60E-390F-46E0-8AE9-DF9E54A3DA57</string>
+  <key>PayloadVersion</key><integer>1</integer>
+  <key>PayloadContent</key><dict>
+    <key>com.brave.Browser</key><dict>
+      <key>Forced</key><array><dict>
+        <key>mcx_preference_settings</key><dict>
+          <key>BraveRewardsDisabled</key><true/>
+          <key>BraveWalletDisabled</key><true/>
+          <key>BraveVPNDisabled</key><true/>
+          <key>BraveAIChatEnabled</key><false/>
+          <key>BraveLocalAIEnabled</key><false/>
+          <key>BraveNewsDisabled</key><true/>
+          <key>BraveTalkDisabled</key><true/>
+          <key>BravePlaylistEnabled</key><false/>
+          <key>BraveSpeedreaderEnabled</key><false/>
+          <key>BraveWaybackMachineEnabled</key><false/>
+          <key>BraveWebDiscoveryEnabled</key><false/>
+          <key>BraveP3AEnabled</key><false/>
+          <key>BraveStatsPingEnabled</key><false/>
+          <key>TorDisabled</key><true/>
+          <key>MetricsReportingEnabled</key><false/>
+          <key>PromotionsEnabled</key><false/>
+        </dict>
+      </dict></array>
+    </dict>
+  </dict>
+</dict></array>
+</dict></plist>

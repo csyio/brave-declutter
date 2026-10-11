@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\BraveSoftware\Brave]
+"BraveRewardsDisabled"=dword:00000001
+"BraveWalletDisabled"=dword:00000001
+"BraveVPNDisabled"=dword:00000001
+"BraveAIChatEnabled"=dword:00000000
+"BraveLocalAIEnabled"=dword:00000000
+"BraveNewsDisabled"=dword:00000001
+"BraveTalkDisabled"=dword:00000001
+"BravePlaylistEnabled"=dword:00000000
+"BraveSpeedreaderEnabled"=dword:00000000
+"BraveWaybackMachineEnabled"=dword:00000000
+"BraveWebDiscoveryEnabled"=dword:00000000
+"BraveP3AEnabled"=dword:00000000
+"BraveStatsPingEnabled"=dword:00000000
+"TorDisabled"=dword:00000001
+"MetricsReportingEnabled"=dword:00000000
+"PromotionsEnabled"=dword:00000000

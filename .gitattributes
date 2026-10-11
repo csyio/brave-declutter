@@ -1,0 +1,7 @@
+*.reg text eol=crlf
+*.ps1 text eol=crlf
+*.sh text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.mobileconfig text eol=lf
+*.md text eol=lf
